@@ -8,6 +8,10 @@ public class Ex4_Car {
 		String brand = "KIA";
 
 		Car car = new Car(owner, modelName, carNumber, brand);
-
+		car.printCarInfo();
+		
+		System.out.println();
+		car.changeCar("ddddddd", "현대");
+		car.printCarInfo();
 	}
 }

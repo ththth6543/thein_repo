@@ -16,5 +16,4 @@ public class ArrayMain5 {
 			System.out.println(s.getName() + " : " + s.getScore());
 		}
 	}
-
 }

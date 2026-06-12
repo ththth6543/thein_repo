@@ -30,3 +30,7 @@ where address2 is not null;
 
 select * from address;
 
+select * from departments;
+
+insert into departments(id, name)
+values (3, 'Management');
